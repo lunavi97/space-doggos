@@ -35,4 +35,8 @@ contract SpaceDoggos {
 
         doggos[msg.sender] = myDoggo;
     }
+
+    function getSystemMap(uint _coordX, uint _coordY) returns (uint) {
+        return uint(keccak256(_coordX, _coordY));
+    }
 }
