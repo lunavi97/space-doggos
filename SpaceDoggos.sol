@@ -32,5 +32,7 @@ contract SpaceDoggos {
             coordX: 0,
             coordY: 0
             });
+
+        doggos[msg.sender] = myDoggo;
     }
 }
