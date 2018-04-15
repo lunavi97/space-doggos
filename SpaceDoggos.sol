@@ -19,4 +19,6 @@ contract SpaceDoggos {
         uint coordX;
         uint coordY;
     }
+
+    mapping(address => Doggo) doggos;
 }
